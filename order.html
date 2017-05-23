@@ -1,0 +1,432 @@
+ <!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>fnmili</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+    <link href="css/swiper.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="top-nav hidden-xs">
+      <div class="container">
+        <ul class="header-top-left">
+          <li>范米粒欢迎你！</li>
+          <li>
+            <a href="#">登录</a>|
+          </li>
+          <li>
+            <a href="#">注册</a>
+          </li>
+        </ul>
+        <a href="javascript:;" class="app">
+          <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+          手机范米粒
+          <span class="popover bottom">
+            <img src="images/2dcode/2dcode-app.png" alt="">
+            <i class="arrow"></i>
+          </span>
+        </a>
+        <ul class="top-nav-right">
+          <li><a href="#">每日签到</a>|</li>
+          <li><a href="#">我的订单</a>|</li>
+          <li>
+            <a href="#">个人中心<span class="caret"></span></a>
+            <div class="drop-menu">
+              <a href="#">我的优惠券</a>
+              <a href="#">我的米粒币</a>
+              <span class="spliter"></span>
+              <a href="#">我的实名认证</a>
+              <a href="#">收货地址</a>
+              <span class="spliter"></span>
+              <a href="#">售后管理</a>
+            </div>
+          </li>
+          <li><a href="#">消费者告知书</a>|</li>
+          <li>
+            <a href="#">更多<span class="caret"></span></a>
+            <div class="drop-menu">
+              <a href="javascript:;">收藏本站</a>
+              <span class="spliter"></span>
+              <a href="#">新浪微博</a>
+              <a href="#">微信公众号</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <header class="top-header border hidden-xs">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <div class="row">
+              <a href="#" class="logo"></a>
+            </div>
+          </div>
+          <div class="col-md-4 col-md-offset-6 step step2">
+            <span></span>
+            <ul>
+              <li class="step-1 active">我的购物车</li>
+              <li class="step-2 active">提交订单</li>
+              <li class="step-3">确认支付</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <header class="phone-top visible-xs">
+      <h2 class="order-new">新增收货地址</h2>
+    </header>
+    <header class="phone-top visible-xs">
+      <h2 class="hide order-sel">选择收货地址<span class="order-add">添加</span></h2>
+    </header>
+    <div class="container order-wrap">
+      <div class="add-wrap">
+        <h2 class="hidden-xs">新增收货地址</h2>
+        <div class="item">
+          <span><i>*</i> 所在地区</span>
+          <div class="dropdown">
+            <a id="dLabel1" data-target="#" href="javascript:;" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">--省/直辖市--
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dLabel1">
+              <li><a href="#" class="active">--省/直辖市--</a></li>
+              <li><a href="#">北京市</a></li>
+              <li><a href="#">天津市</a></li>
+              <li><a href="#">河北省</a></li>
+              <li><a href="#">山西省</a></li>
+              <li><a href="#">内蒙古自治区</a></li>
+              <li><a href="#">辽宁省</a></li>
+              <li><a href="#">吉林省</a></li>
+              <li><a href="#">黑龙江省</a></li>
+              <li><a href="#">上海市</a></li>
+              <li><a href="#">江苏省</a></li>
+              <li><a href="#">浙江省</a></li>
+              <li><a href="#">安徽省</a></li>
+              <li><a href="#">福建省</a></li>
+              <li><a href="#">江西省</a></li>
+              <li><a href="#">山东省</a></li>
+            </ul>
+          </div>
+          <div class="dropdown">
+            <a id="dLabel2" data-target="#" href="javascript:;" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+              --市--
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dLabel2">
+              <li><a href="#" class="active">--市--</a></li>
+              <li><a href="#">北京市</a></li>
+              <li><a href="#">天津市</a></li>
+              <li><a href="#">河北省</a></li>
+              <li><a href="#">山西省</a></li>
+              <li><a href="#">内蒙古自治区</a></li>
+              <li><a href="#">辽宁省</a></li>
+              <li><a href="#">吉林省</a></li>
+              <li><a href="#">黑龙江省</a></li>
+              <li><a href="#">上海市</a></li>
+              <li><a href="#">江苏省</a></li>
+              <li><a href="#">浙江省</a></li>
+              <li><a href="#">安徽省</a></li>
+              <li><a href="#">福建省</a></li>
+              <li><a href="#">江西省</a></li>
+              <li><a href="#">山东省</a></li>
+            </ul>
+          </div>
+          <div class="dropdown">
+            <a id="dLabel3" data-target="#" href="javascript:;" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+              --省/直辖市--
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dLabel3">
+              <li><a href="#" class="active">--省/直辖市--</a></li>
+              <li><a href="#">北京市</a></li>
+              <li><a href="#">天津市</a></li>
+              <li><a href="#">河北省</a></li>
+              <li><a href="#">山西省</a></li>
+              <li><a href="#">内蒙古自治区</a></li>
+              <li><a href="#">辽宁省</a></li>
+              <li><a href="#">吉林省</a></li>
+              <li><a href="#">黑龙江省</a></li>
+              <li><a href="#">上海市</a></li>
+              <li><a href="#">江苏省</a></li>
+              <li><a href="#">浙江省</a></li>
+              <li><a href="#">安徽省</a></li>
+              <li><a href="#">福建省</a></li>
+              <li><a href="#">江西省</a></li>
+              <li><a href="#">山东省</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="item clearfix">
+          <span><i>*</i> 详细地址</span>
+          <textarea autocomplete="off" placeholder="无需重复填写省市区，小于75个字"></textarea>
+        </div>
+        <div class="item clearfix">
+          <span><i>*</i> 收货人姓名</span>
+          <input type="text" placeholder="不能为昵称、X先生、X小姐等，请使用真实姓名" />
+        </div>
+        <div class="item clearfix">
+          <span><i>*</i> 手机号码</span>
+          <input type="text" placeholder="手机号码、电话号码必须填一项" />
+        </div>
+        <div class="item clearfix">
+          <span>电话号码</span>
+          <p>
+            <input type="text" placeholder="区号" />
+            <span>-</span>
+            <input type="text" class="phone" placeholder="电话号码" />
+            <span>-</span>
+            <input type="text" placeholder="分机号(可选)" />
+          </p>
+        </div>
+        <div class="item clearfix">
+          <span>邮箱</span>
+          <input type="text" placeholder="接受订单提醒邮件，便于您及时了解订单状态" />
+        </div>
+        <div class="item-bottom"><button>保存新地址</button></div>
+      </div>
+      <div class="sel-wrap hidden">
+        <h2 class="hidden-xs">选择收货地址</h2>
+        <div class="row">
+          <div class="col-md-4 col-xs-12">
+            <div class="adr-info default">
+              <p class="header">
+                <strong>贾德荃&nbsp;&nbsp;收</strong>
+                <b class="hidden-xs">默认地址</b>
+              </p>
+              <p class="addressText">
+                天津市&nbsp;&nbsp;天津市&nbsp;&nbsp;河西区
+                <br>
+                <b title="环湖中路环湖东里23门601室">环湖中路环湖东里23门601室</b>
+                <br>
+                139****2105
+              </p>
+              <p class="default-adr visible-xs">
+                <input type="checkbox" checked="checked">
+                <span>默认地址</span>
+              </p>
+              <p class="edit">
+                <a href="javascript:;" class="mod">修改</a>
+                <a href="javascript:;" class="del" data-toggle="modal" data-target=".bs-example-modal-sm">删除</a>
+                <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                  <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        <h4 class="modal-title" id="mySmallModalLabel">提示</h4>
+                      </div>
+                      <div class="modal-body">
+                        <div class="wrap">
+                          <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>确定要删除该收货地址吗？
+                        </div>
+                        <p>
+                          <a href="javascript:;" class="focus-btn">确认</a>
+                          <a href="javascript:;" data-dismiss="modal">取消</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-12">
+            <div class="adr-info">
+              <p class="header">
+                <strong>贾德荃&nbsp;&nbsp;收</strong>
+                <b class="hide hidden-xs">设为默认</b>
+              </p>
+              <p class="addressText">
+                天津市&nbsp;&nbsp;天津市&nbsp;&nbsp;河西区
+                <br>
+                <b title="环湖中路环湖东里23门601室">环湖中路环湖东里23门601室</b>
+                <br>
+                139****2105
+              </p>
+              <p class="default-adr visible-xs">
+                <input type="checkbox">
+                <span>默认地址</span>
+              </p>
+              <p class="edit">
+                <a href="javascript:;" class="mod">修改</a>
+                <a href="javascript:;" class="del" data-toggle="modal" data-target=".bs-example-modal-sm">删除</a>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-12">
+            <div class="adr-info">
+              <p class="header">
+                <strong>贾德荃&nbsp;&nbsp;收</strong>
+                <b class="hide hidden-xs">设为默认</b>
+              </p>
+              <p class="addressText">
+                天津市&nbsp;&nbsp;天津市&nbsp;&nbsp;河西区
+                <br>
+                <b title="环湖中路环湖东里23门601室">环湖中路环湖东里23门601室</b>
+                <br>
+                139****2105
+              </p>
+              <p class="default-adr visible-xs">
+                <input type="checkbox">
+                <span>默认地址</span>
+              </p>
+              <p class="edit">
+                <a href="javascript:;" class="mod">修改</a>
+                <a href="javascript:;" class="del" data-toggle="modal" data-target=".bs-example-modal-sm">删除</a>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-12">
+            <div class="adr-info">
+              <p class="header">
+                <strong>贾德荃&nbsp;&nbsp;收</strong>
+                <b class="hide hidden-xs">设为默认</b>
+              </p>
+              <p class="addressText">
+                天津市&nbsp;&nbsp;天津市&nbsp;&nbsp;河西区
+                <br>
+                <b title="环湖中路环湖东里23门601室">环湖中路环湖东里23门601室</b>
+                <br>
+                139****2105
+              </p>
+              <p class="default-adr visible-xs">
+                <input type="checkbox">
+                <span>默认地址</span>
+              </p>
+              <p class="edit">
+                <a href="javascript:;" class="mod">修改</a>
+                <a href="javascript:;" class="del" data-toggle="modal" data-target=".bs-example-modal-sm">删除</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <span class="add-addr">+新增收货地址</span>
+      </div>
+      <div class="item-info">
+        <h3>确认商品信息</h3>
+        <div class="wrap">
+          <div class="row head hidden-xs">
+            <div class="col-md-4"><div class="row">范米粒发货</div></div>
+            <div class="col-md-2"><div class="row">重量(千克)</div></div>
+            <div class="col-md-2"><div class="row">单价(元)</div></div>
+            <div class="col-md-2"><div class="row">数量</div></div>
+            <div class="col-md-2"><div class="row">金额(元)</div></div>
+          </div>
+          <div class="row content">
+              <div class="col-md-4 col-xs-9">
+                <div class="wrap">
+                  <p>Merries 花王妙而舒 M 64片/包 2包装 纸尿裤/尿不湿</p>
+                  <p class="hidden-xs">
+                    <em>适用税率 : 11.9% <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></em>
+                    <em>税费:￥23.09</em>
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-2 col-xs-3">
+                <div class="box">
+                  <div class="wrap">4<span class="visible-xs-inline">kg</span></div>
+                </div>
+              </div>
+              <div class="col-md-2 col-xs-1">
+                <div class="box">
+                  <div class="wrap">198</div>
+                </div>
+              </div>
+              <div class="col-md-2 col-xs-1">
+                <div class="box">
+                  <div class="wrap"><span class="visible-xs-inline">×</span>1</div>
+                </div>
+              </div>
+              <div class="col-md-2 hidden-xs">
+                <div class="box">
+                  <div class="wrap"><b>198</b></div>
+                </div>
+              </div>
+          </div>
+          <div class="row content">
+              <div class="col-md-4 col-xs-9">
+                <div class="wrap">
+                  <p>Merries 花王妙而舒 M 64片/包 2包装 纸尿裤/尿不湿</p>
+                  <p class="hidden-xs">
+                    <em>适用税率 : 11.9% <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></em>
+                    <em>税费:￥23.09</em>
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-2 col-xs-3">
+                <div class="box">
+                  <div class="wrap">4<span class="visible-xs-inline">kg</span></div>
+                </div>
+              </div>
+              <div class="col-md-2 col-xs-1">
+                <div class="box">
+                  <div class="wrap">198</div>
+                </div>
+              </div>
+              <div class="col-md-2 col-xs-1">
+                <div class="box">
+                  <div class="wrap"><span class="visible-xs-inline">×</span>1</div>
+                </div>
+              </div>
+              <div class="col-md-2 hidden-xs">
+                <div class="box">
+                  <div class="wrap"><b>198</b></div>
+                </div>
+              </div>
+          </div>
+          <div class="total-box clearfix">
+            <div class="order-box">
+              <div class="wrap">
+                <div class="key">
+                  <p>商品应付总计：</p>
+                  <p>运费：</p>
+                  <p>税费：</p>
+                  <p>应付金额：</p>
+                </div>
+                <div class="value">
+                  <p>￥123454.32</p>
+                  <p>￥0.00</p>
+                  <p>￥72.84</p>
+                  <p><span>￥123454.32</span></p>
+                </div>
+              </div>
+              <a class="submib" href="#">提交订单</a>
+              <a class="go-back" href="#">返回购物车修改</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="footer-xs visible-xs">
+      <ul>
+        <li><a href="#">首页</a></li>
+        <li><a href="#">活动</a></li>
+        <li><a href="#">分类</a></li>
+        <li><a href="#">购物车</a></li>
+        <li><a href="#">我的</a></li>
+      </ul>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src='js/jquery-1.12.3.min.js'></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/js.js"></script>
+  </body>
+</html>
